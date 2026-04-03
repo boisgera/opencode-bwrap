@@ -5,6 +5,8 @@
 
 A sandboxed environment for running opencode safely using bwrap.
 
+![cage](./assets/cage.png)
+
 ## Installation
 
 ```bash

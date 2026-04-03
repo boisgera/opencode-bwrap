@@ -6,9 +6,9 @@ DATA_HOME="${XDG_DATA_HOME:-$HOME/.local}"
 INSTALL_DIR="$DATA_HOME/bin"
 
 mkdir -p "$INSTALL_DIR"
-cp opencode-sandboxed "$INSTALL_DIR"
+cp opencode-bwrap "$INSTALL_DIR"
 
-echo "Installed to $INSTALL_DIR/opencode-sandboxed"
+echo "Installed to $INSTALL_DIR/opencode-bwrap"
 
 if [[ ":$PATH:" != *":$INSTALL_DIR:"* ]]; then
     echo ""

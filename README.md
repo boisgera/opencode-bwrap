@@ -1,6 +1,6 @@
-# opencode-sandboxed
+# opencode-bwrap
 
-A sandboxed environment for running opencode safely.
+A sandboxed environment for running opencode safely using bwrap.
 
 ## Installation
 
@@ -8,14 +8,14 @@ A sandboxed environment for running opencode safely.
 ./install.sh
 ```
 
-This will install the `opencode-sandboxed` binary to `~/.local/bin` (or `$XDG_DATA_HOME/bin` if set).
+This will install the `opencode-bwrap` binary to `~/.local/bin` (or `$XDG_DATA_HOME/bin` if set).
 
 ## Usage
 
 Run the sandboxed opencode binary directly:
 
 ```bash
-opencode-sandboxed
+opencode-bwrap
 ```
 
 ## Requirements
